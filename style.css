@@ -1,0 +1,97 @@
+body {
+    background-color: darkgray;
+}
+
+.box {
+    
+    padding: 40px 40px 40px 40px;
+    border: 2px solid;
+    margin: 100px 100px 100px 100px;
+    background-color: #6289EF;
+    width: 290px;
+    height: 500px;
+    background-image: url("praticandohtml/image1.png");
+       
+}
+
+#voandoAlto {
+    width: 280px;
+    height: 250px;
+}
+
+#buttonEnviar {
+    margin: 30px 40px 50px 30px;
+    border-top: 40px;
+    color: white;
+    background-color: #5658c2;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 1px;
+    
+}
+
+#buttonDeletar {
+    margin: 30px 30px 40px 40px;
+    border-top: 40px;
+    color: white;
+    background-color: #5658c2;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 1px;
+    
+}
+
+#seunome {
+    width: 450px;
+    color: white;
+    font-size: 1.0em; 
+    font-family: cursive;
+    
+}
+
+#suaidade {
+    padding-top: 20px;
+    width: 450px;
+    color: white;
+    font-size: 1.0em;
+    font-family: cursive;
+}
+
+#sualinguagem {
+    padding-top: 20px;
+    width: 450px;
+    color: white;
+    font-size: 1.0em;
+    font-family: cursive;
+    
+}
+
+#nome {
+    
+    width: 270px;
+    font-size: 1.0em;
+    border-color: black;
+    border-width: 0.2em;
+    border-top-right-radius: 10%;
+}
+
+#idade {
+    width: 270px;
+    font-size: 1.0em;
+    border-color: black;
+    border-width: 0.2em;
+    border-top-right-radius: 10%;
+    
+}
+
+#linguagem {
+    width: 270px;
+    font-size: 1.0em;
+    border-color: black;
+    border-width: 0.2em;
+    border-top-right-radius: 10%;
+}
+
+
+
+

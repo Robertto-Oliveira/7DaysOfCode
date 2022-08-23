@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>7DaysOfCode 2/7</title>
+    <script type="text/javascript">
+        function enviar() {
+            var nome = document.getElementById("nome").value;
+            var idade = document.getElementById("idade").value;
+            var linguagem = document.getElementById("linguagem").value;
+            alert(nome + " você tem " + idade + " anos e está aprendendo " + linguagem)
+        }
+        function deletar() {
+            var nome = document.getElementById("nome").value = '';
+            var idade = document.getElementById("idade").value = '';
+            var linguagem = document.getElementById("linguagem").value = '';
+            alert("Dados deletados com sucesso!")
+        }
+    </script>
+    <div class="box">
+        <img id="voandoAlto" src="image1.png" alt="voando alto" width="100" height="100">
+
+        <div>
+            <legend id="seunome">Qual o seu nome? </legend>
+            <input autofocus id="nome" name="nome" value="" type="text" placeholder="Qual o seu nome?">
+
+            <legend id="suaidade">Qual a sua idade? </legend>
+            <input id="idade" name="idade" value="" type="number" placeholder="Quantos anos você tem?">
+
+            <legend id="sualinguagem">Qual linguagem você está aprendendo? </legend>
+            <input id="linguagem" name="linguagem" value="" type="text"
+                placeholder="Qual linguagem você está aprendendo?">
+
+            <button id="buttonEnviar" type="submit" onclick="enviar()">Enviar</button>
+            <button id="buttonDeletar" type="submit" onclick="deletar()">Limpar</button>
+        </div>
+
+    </div>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
